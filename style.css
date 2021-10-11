@@ -1,0 +1,17 @@
+#Modhi{
+    color: rgb(0, 139, 139);
+    text-size-adjust: 24;
+}
+#snapashota{
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+canvas{
+    animation-name: exetra;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes exetra{
+    from{box-shadow:5px 5px 30px rgb(255, 0, 0)}    
+    to{box-shadow:5px 5px 30px rgb(255, 0, 221)}
+}
